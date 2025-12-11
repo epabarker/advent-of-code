@@ -13,6 +13,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "ipykernel" },
     { name = "jupyter" },
+    { name = "numpy" },
     { name = "openpyxl" },
     { name = "pandas" },
 ]
@@ -21,6 +22,7 @@ dependencies = [
 requires-dist = [
     { name = "ipykernel", specifier = ">=7.1.0" },
     { name = "jupyter", specifier = ">=1.1.1" },
+    { name = "numpy", specifier = ">=2.3.5" },
     { name = "openpyxl", specifier = ">=3.1.5" },
     { name = "pandas", specifier = ">=2.3.3" },
 ]
